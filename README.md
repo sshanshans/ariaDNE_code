@@ -1,6 +1,6 @@
 ## ariaDNE: a robustly implemented algorithm for Dirichlet Energy of the Normal
 
-![teaser](./ariaDNE/images/teaser.jpg?raw=true)
+![teaser](./images/teaser.jpg?raw=true)
 
 **DNE background:**
 Dirichlet Normal Energy (DNE) quantifies local curvature in 3D surfaces; a discretized version for 3D meshes is effective for biological studies of morphological surfaces. For a continuous 2D manifold embedded in 3D, DNE is defined by,
@@ -20,7 +20,7 @@ Unlike other shape metrics, DNE is landmark-free and independent of the surfaceâ
 ![curvature](https://latex.codecogs.com/gif.latex?\frac{\sigma_{\mbox{chosen}}}{\sigma_1&space;&plus;&space;\sigma_2&space;&plus;&space;\sigma_3})
 3. Summing the local curvature across the mesh and obtain the glocal DNE.
 
-For the exact procedure, see this document ([pdf](./ariaDNE/images/algorithm.pdf)).
+For the exact procedure, see this document ([pdf](./images/algorithm.pdf)).
 
 **Code:**
 The function 'ariaDNE.m' computes ariaDNE of a mesh surface.
