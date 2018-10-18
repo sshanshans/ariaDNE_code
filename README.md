@@ -1,4 +1,5 @@
 ## ariaDNE: a robustly implemented algorithm for Dirichlet Energy of the Normal
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1465949.svg)](https://doi.org/10.5281/zenodo.1465949)
 
 ![teaser](./images/teaser.jpg?raw=true)
 
