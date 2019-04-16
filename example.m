@@ -11,7 +11,7 @@ Options.cutThresh = 0;
 meshname = 'data.ply';
 bandwidth = 0.08;
 H = ariaDNE(meshname, bandwidth, Options);
-fprintf(‘ariaDNE for data.ply is %f. \n', H.dne);
+fprintf('ariaDNE for data.ply is %f. \n', H.dne);
 
 
 
