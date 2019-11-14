@@ -29,8 +29,13 @@ The function 'ariaDNE.m' computes ariaDNE of a mesh surface.
 **Demos:**
 This package includes a demo for computing ariaDNE on a 3D mesh representing a second mandibular tooth from *Callicebus*. Download the package and run example.m in Matlab.
 
+[2019/10] We provide code for plotting the curvature field of ariaDNE as in the paper. Run plotexample.m in Matlab. 
+
+[2019/11] We provide a demo for computing ariaDNE for a folder of 3D meshes saved in '.ply' files. Run exampleDNEfolder.m in Matlab. 
+
+
 **Compatibility and dependencies:**
-- Developed and tested with Matlab 2017b on Mac and Linux.
+- Developed and tested with Matlab 2017b on Mac and Linux. 
 
 **Disclaimer:** The code is for acadmic use only. Please contact the author [Shan Shan](https://sshanshans.github.io) for any questions or bugs.
 
