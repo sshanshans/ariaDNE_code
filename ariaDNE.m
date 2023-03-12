@@ -23,8 +23,9 @@ function [H] = ariaDNE(meshname, bandwidth, Options)
 % Author:
 %       Shan Shan
 %       Department of Mathematics
-%       sshan@math.duke.edu
+%       shan-qm@imada.sdu.dk
 %       June 14, 2018
+%
 
 % default options
 H.Opts.distInfo = 'Geodeisic';
@@ -82,7 +83,8 @@ curvature_nn = zeros(numPoints,1);
 % compute or load pairwise distnace
 if isempty(H.Opts.distance) 
     if strcmpi(H.Opts.distInfo, 'Geodeisic') 
-        d_dist = graphallshortestpaths(Triangulation2AdjacencyWeighted(G));
+        d_dist = distances(graph(Triangulation2AdjacencyWeighted(G))); % compatible with the latest Matlab version
+        %d_dist = graphallshortestpaths(Triangulation2AdjacencyWeighted(G)); % works for Matlab 2020a and before
     elseif strcmpi(H.Opts.distInfo, 'Euclidean')
         d_dist = squareform(pdist(points));
     else
